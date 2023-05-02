@@ -4,7 +4,44 @@
     padding: 0;
 }
 
-section{
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.first-screen {
     height: 802px;
-    background-color: azure;
+    background: url("../img/main_bg.png") center center/cover no-repeat;
+}
+
+.logo {
+    padding-top: 39px;
+}
+
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+    height: 71px;
+    width: 83px;
+}
+
+.logo .logo_text {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFF;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-family: Roboto;
+    color: #F9BF3B;
+    font-size: 41px;
+    font-weight: 900;
+    line-height: 41px;
+    text-align: center;
+    margin-top: 60px;
+
 }
