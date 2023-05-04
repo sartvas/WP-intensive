@@ -170,7 +170,7 @@ h2.waiting__title {
 
 .seo {
     min-height: 550px;
-    padding: 108px 0 69px 0;
+    padding: 108px 0 53px 0;
 }
 
 .seo .seo_header {
@@ -184,7 +184,6 @@ h2.waiting__title {
 }
 
 .seo .seo_text {
-    padding-bottom: 69px;
     margin: 30px 0 0 391px;
     font-family: 'Roboto';
     font-style: normal;
@@ -263,4 +262,44 @@ h2.waiting__title {
     margin-top: 24px;
     color: #FFFF;
     text-align: center;
+}
+
+.gift {
+    height: 631px;
+    background-color: #EFEFEF;
+    padding: 88px 0 88px 0;
+    
+}
+
+.gift_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift_descr {
+    margin-top: 45px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+}
+
+.gift_btn {
+    display: block;
+    width: 313px;
+    height: 72px;
+    margin: 72px auto;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 3%;
+    border: none;
+    font-family: 'RobotoCondensed';
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFF;
+    cursor: pointer;
+
 }
