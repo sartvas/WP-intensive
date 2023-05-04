@@ -303,3 +303,48 @@ h2.waiting__title {
     cursor: pointer;
 
 }
+
+.first {
+    height: 512px;
+    padding: 81px 0 52px 0;
+}
+
+.first_img {
+    display: block;
+    margin: 0 auto;
+}
+
+h2.first_header {
+    padding-top: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.first_time {
+    padding-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.first_lead {
+    padding-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4A4A4A;
+}
