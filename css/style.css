@@ -348,3 +348,35 @@ h2.first_header {
     text-align: center;
     color: #4A4A4A;
 }
+
+.footer {
+    height: 169px;
+    background: #1A1A1A;
+}
+
+.footer_sup a, .footer_sup span {
+    color: #888888;
+}
+
+.footer_sup{
+    color: #FFFF;
+    padding-top: 57px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.footer_tel {
+    padding-top: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #888888;
+}
