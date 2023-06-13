@@ -21,9 +21,7 @@ document.addEventListener('click', ()=>{
             document.body.style.overflow = '';
         }
 
-
         closeBtn.addEventListener('click', closeModal);
-
 
         modal.addEventListener('click', (e) => {
             if (e.target === modal) {
