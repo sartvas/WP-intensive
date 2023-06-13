@@ -26,7 +26,7 @@
                 Ежедневно в России появляется более 5 000 новых сайтов. <br> И только единицы из них становятся популярными и приносят ощутимую прибыль. В чем секрет? В чем формула <br>успеха? Узнайте на предстоящем двухдневном <span>БЕСПЛАТНОМ</span> интенсиве!
             </div>
     
-            <button class="first-screen_btn">
+            <button class="first-screen_btn" data-modal>
                 записаться на интенсив!
             </button>
             
@@ -102,12 +102,12 @@
         <div class="container">
             <h2 class="finish_header">По окончании обучения Вы сможете!</h2>
         <div class="finish_divider"></div>
-        <div class="finish_wrapper">
+        <div class="finish_wrapper" >
             <div class="finish_item">
                 <div class="finish_round">
                     <img src="icons/finish_1.png" alt="" class="finish_icon">
                 </div>
-                <div class="finish_descr">Создать свой сайт или блог</div>
+                <div class="finish_descr" id="descr">Создать свой сайт или блог</div>
             </div>
             <div class="finish_item">
                 <div class="finish_round">
@@ -143,7 +143,7 @@
             <div class="gift_wrapper">
                 <img src="icons/gift.png" alt="gift" class="gift_img">
                 <div class="gift_descr">Для всех участников интенсива предусмотрены бонусы и подарки. Нажимайте на кнопку ниже, принимайте участие в вебинарах и забирайте свой приз по окончании обучения!</div>
-                <button class="gift_btn">Записаться на интенсив!</button>
+                <button class="gift_btn" data-modal>Записаться на интенсив!</button>
             </div>
         </div>
     </section>
@@ -157,14 +157,32 @@
             </div>
         </div>
     </section>
+    <section class="modal hide">
+        <div class="container">
+            <div class="modal__dialog">
+                <div class="modal__content">
+                    <form action="#">
+                        <div class="modal__close" data-close>&times;</div>
+                        <div class="modal__title">Мы свяжемся с вами как можно быстрее!</div>
+                        <input required placeholder="Ваше имя" name="name" type="text" class="modal__input">
+                        <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input">
+                        <button class="btn btn_dark btn_min" data-modal>Записаться</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
     <footer class="footer">
         <div class="footer_sup">
-        <a href="#">Служба поддержки</a> <span>|</span>
-        <a href="#">Политика конфиденциальности</a>
-            </div>
+            <a href="#">Служба поддержки</a> <span>|</span>
+            <a href="#">Политика конфиденциальности</a>
+        </div>
         <div class="footer_tel">
             Позвоните нам 8-800-555-01-21
         </div>
     </footer>
+    <div id="elem-content">Element</div>
+    <script src="js/script.js"></script>
 </body>
 </html>
